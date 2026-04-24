@@ -1,0 +1,28 @@
+*{   margin: 0%;}
+body{
+    display: flex;justify-content: center;align-items: center;flex-direction: column;gap: 20px;background-color: #709dfe;
+    padding: 10px;
+}
+
+form{
+    padding: 10px;background-color: rgb(198, 225, 248);border-radius: 3%;
+display: flex;flex-direction: column;box-shadow: 3px 3px 10px #5b8df8;
+gap: 20px;
+
+}
+button{
+    align-items: center;
+}
+input,select{
+    width: 50%;height: 20%;
+}
+.center{
+    display: flex;justify-content: space-evenly;
+}
+#box{ 
+    display: flex;justify-content: center;align-items: center;gap: 20px;
+}
+#reset{
+    width: 100px;
+}
+
